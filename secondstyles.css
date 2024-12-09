@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+}
+body {
+    height: 50%;
+    background-image: url("./tausta2.png")
+}
+
+.link-container {
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(57, 56, 58);
+    padding: 20px;
+    border-style: solid;
+    border-color:  rgb(225, 171, 85);
+
+}
+
+a, a:link, a:visited, a:active, a:focus {
+    color: rgb(225, 171, 85) !important; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+  color: rgb(223, 93, 27) !important;
+  
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .column {
+    flex: 1;
+    padding: 10px;
+    background-color: rgba(57, 56, 58, 0.8); 
+    border-radius: 8px;
+    width: 100px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+
+  }
+
+  
+
+  .column img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+footer {
+    background-color: rgb(57, 56, 58);
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(225, 171, 85);
+    color: rgb(225, 171, 85);
+}
